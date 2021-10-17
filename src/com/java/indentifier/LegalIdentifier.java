@@ -1,7 +1,7 @@
 package com.java.indentifier;
 
 /*
- * Identifier can not start with a digit like int 12value;
+ * Identifier can not start with a digit like int 12a;
  *Start with letter currency character ($) or connecting character such as underscore (_)
  */
 public class LegalIdentifier {
