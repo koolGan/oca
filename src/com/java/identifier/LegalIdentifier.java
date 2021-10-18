@@ -1,8 +1,9 @@
-package com.java.indentifier;
+package com.java.identifier;
 
 /*
  * Identifier can not start with a digit like int 12a;
  *Start with letter currency character ($) or connecting character such as underscore (_)
+ * Space is a special character, and Java identifier can’t contain any special symbol except _ and $.
  */
 public class LegalIdentifier {
 
@@ -25,7 +26,20 @@ public class LegalIdentifier {
         // int !rt; no special character unexpected underscore and dollar
         // int while; not reserve keywords used as a identifier
         // int 9i; should not start with digit.
+        float LIFE_OF_PI = 3.14f;
+        String String;
+        int Int;
+        int main;
+        int a = 9;
+        int _;
+       // int a = 10; compiler error variable define twice
+            String k="Variable";
+        System.out.println(k);
 
-        System.out.println("Legal and illegal identifiers");
+        println();
+    }
+
+    private static void println() {
+        System.out.print(" HI");
     }
 }
