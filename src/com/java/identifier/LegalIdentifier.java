@@ -2,7 +2,7 @@ package com.java.identifier;
 
 /*
  * Identifier can not start with a digit like int 12a;
- *Start with letter currency character ($) or connecting character such as underscore (_)
+ * Start with letter currency character ($) or connecting character such as underscore (_)
  * Space is a special character, and Java identifier can’t contain any special symbol except _ and $.
  */
 public class LegalIdentifier {
